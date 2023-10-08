@@ -1,0 +1,251 @@
+.page {
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 360px;
+}
+
+.content-section_theme_dark {
+  background-color: black;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 24px 20px 24px 20px;
+}
+
+.header__logo {
+  max-width: 80px;
+  max-height: 16px;
+}
+
+.header__menu {
+  color: white;
+}
+
+.header__menu-list {
+    color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.header__menu-item {
+  list-style: none;
+}
+
+.header__menu-item_link{
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+
+.cover {
+  min-inline-size: 221px;
+  padding: 8px 0 0 22px;
+  background-image: url(/images/cover.svg);
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: EB Garamond;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+.text-center {
+  align-self: center;
+  padding-right: 22px;
+}
+
+.text-right {
+  align-self: flex-end;
+  padding-right: 22px;
+}
+
+.intro {
+  padding: 30px 20px 37px 20px;
+}
+
+.intro__heading {
+  display: flex;
+  color: #ccc;
+  font-family: Inter;
+}
+
+.intro__title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.intro__date {
+  white-space: nowrap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.intro__main-text {
+  padding-top: 24px;
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.reasons {
+  padding: 40px 19px 40px 20px;
+}
+
+.content-section__subtitle {
+  font-family: EB Garamond;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  padding: 32px 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding-left: 14px;
+}
+
+.content-section__list-item {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px; 
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.how-to {
+  color: white;
+  padding: 40px 20px 60px 20px;
+  border-bottom: 1px solid #fee42a;
+}
+
+.cards {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.card {
+  border-radius: 25px;
+  padding: 20px 20px;
+}
+.card_theme_dark {
+  background-color: #343434;
+}
+.card_theme_bright {
+  background-color: #fee42a;
+  color: black;
+}
+
+.card__author-photo {
+  width: 100px;
+}
+
+.card__author-name {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%; 
+  padding-bottom: 8px;
+}
+
+.card__title {
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+  padding-bottom: 8px;
+}
+
+.card__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px; 
+}
+
+.footer {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  column-gap: 16px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.footer__copy {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
