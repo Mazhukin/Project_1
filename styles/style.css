@@ -19,25 +19,25 @@ blockquote {
 }
 
 .content-section {
+  box-sizing: border-box;
   max-width: 360px;
   margin: auto;
-  box-sizing: border-box;
 }
 
 .content-section_theme_dark {
-  background-color: black;
   color: white;
+  background-color: black;
 }
 
 .content-section_theme_bright {
-  background-color: #fee42a;
   color: black;
+  background-color: #fee42a;
 }
 
 .header {
-  padding: 24px 20px;
   display: flex;
   justify-content: space-between;
+  padding: 24px 20px;
 }
 
 .header__logo {
@@ -46,11 +46,11 @@ blockquote {
 }
 
 .header__menu-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 13px;
   text-underline-offset: 3px;
+  list-style: none;
 }
 
 .header__menu-link {
@@ -65,14 +65,14 @@ blockquote {
   padding: 7px 24px 30px 20px;
   background-image: url(/images/cover.svg);
   background-repeat: no-repeat;
-  background-size: 95% auto;
   background-position: right 30px;
+  background-size: 95% auto;
 }
 
 .cover__title {
   font-family: "EB Garamond";
-  font-size: 72px;
   font-weight: 400;
+  font-size: 72px;
   line-height: 100%;
 }
 
@@ -98,8 +98,8 @@ blockquote {
 }
 
 .intro__title {
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 120%;
 }
 
@@ -117,8 +117,8 @@ blockquote {
 
 .content-section__subtitle {
   font-family: "EB Garamond";
-  font-size: 28px;
   font-weight: 500;
+  font-size: 28px;
   line-height: 115%;
 }
 
@@ -126,21 +126,21 @@ blockquote {
   padding-top: 35px;
   padding-bottom: 30px;
   font-family: Inter;
-  font-size: 20px;
   font-weight: 400;
+  font-size: 20px;
   line-height: 27px;
 }
 
 .content-section__list {
-  margin-left: 14px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-left: 14px;
 }
 
 .content-section__list-item {
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 21.6px;
 }
 
@@ -153,8 +153,8 @@ blockquote {
 }
 
 .card {
-  padding: 20px;
   border-radius: 30px;
+  padding: 20px;
 }
 
 .card_theme_dark {
@@ -162,15 +162,15 @@ blockquote {
 }
 
 .card_theme_bright {
-  background-color: #fee42a;
   color: black;
+  background-color: #fee42a;
 }
 
 .cards-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  list-style: none;
 }
 
 .card__author {
@@ -201,22 +201,22 @@ blockquote {
 }
 
 .footer {
-  border-top: 1px solid #fee42a;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #fee42a;
+  padding: 20px;
 }
 
 .footer__links {
-  list-style: none;
   display: flex;
   justify-content: space-between;
   gap: 16px;
+  list-style: none;
 }
 
 .footer__link {
   color: white;
-  text-decoration: none;
   font-size: 14px;
   line-height: 125%;
+  text-decoration: none;
 }
